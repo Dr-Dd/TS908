@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 17)
+    (drawings 18)
     (tracks 114)
     (zones 0)
     (modules 56)
@@ -157,7 +157,7 @@
   )
 
   (module ts908:drd-logo (layer F.Cu) (tedit 0) (tstamp 607C765B)
-    (at 233.045 123.825 90)
+    (at 233.045 125.095 90)
     (fp_text reference G*** (at 0 0 90) (layer F.SilkS) hide
       (effects (font (size 1.524 1.524) (thickness 0.3)))
     )
@@ -2733,6 +2733,9 @@
     )
   )
 
+  (gr_text ee (at 233.68 121.92 90) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_line (start 231.14 123.825) (end 226.695 120.015) (layer Edge.Cuts) (width 0.05) (tstamp 607B7B9A))
   (gr_line (start 231.14 135.255) (end 231.14 123.825) (layer Edge.Cuts) (width 0.05))
   (gr_line (start 234.315 83.185) (end 236.22 81.28) (layer Edge.Cuts) (width 0.05) (tstamp 607B7B9B))
@@ -2866,7 +2869,7 @@
   (segment (start 245.11 102.235) (end 250.19 102.235) (width 0.25) (layer F.Cu) (net 28))
   (segment (start 257.175 103.505) (end 251.46 103.505) (width 0.25) (layer F.Cu) (net 28) (status 30))
 
-  (zone (net 3) (net_name VCC) (layer F.Cu) (tstamp 607C7241) (hatch edge 0.508)
+  (zone (net 3) (net_name VCC) (layer F.Cu) (tstamp 607C7A91) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -3030,7 +3033,7 @@
       )
     )
   )
-  (zone (net 1) (net_name +9V) (layer F.Cu) (tstamp 607C723E) (hatch edge 0.508)
+  (zone (net 1) (net_name +9V) (layer F.Cu) (tstamp 607C7A8E) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
@@ -3443,7 +3446,7 @@
       )
     )
   )
-  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 607C723B) (hatch edge 0.508)
+  (zone (net 2) (net_name GND) (layer B.Cu) (tstamp 607C7A8B) (hatch edge 0.508)
     (connect_pads (clearance 0.508))
     (min_thickness 0.254)
     (fill yes (arc_segments 32) (thermal_gap 0.508) (thermal_bridge_width 0.508))
