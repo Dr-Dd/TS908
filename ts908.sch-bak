@@ -726,22 +726,22 @@ F 3 "" H 5600 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad DPDT-1
+L Mechanical:MountingHole_Pad S3
 U 1 1 608843FA
 P 10700 3550
-F 0 "DPDT-1" V 10950 3450 50  0000 L CNN
-F 1 "COMMON-D1" V 10850 3450 50  0000 L CNN
+F 0 "S3" V 10950 3450 50  0000 L CNN
+F 1 "DPDT A-COMM" V 10850 3450 50  0000 L CNN
 F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 10700 3550 50  0001 C CNN
 F 3 "~" H 10700 3550 50  0001 C CNN
 	1    10700 3550
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad LEFT-D1
+L Mechanical:MountingHole_Pad S4
 U 1 1 6088B0F1
 P 9950 4850
-F 0 "LEFT-D1" V 10200 4900 50  0000 C CNN
-F 1 "DPDT-1" V 10100 4900 50  0000 C CNN
+F 0 "S4" V 10200 4900 50  0000 C CNN
+F 1 "DPDT A-LEFT" V 10100 5000 50  0000 C CNN
 F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 9950 4850 50  0001 C CNN
 F 3 "~" H 9950 4850 50  0001 C CNN
 	1    9950 4850
@@ -757,10 +757,10 @@ Wire Wire Line
 Wire Wire Line
 	10550 4850 10550 4950
 $Comp
-L Device:R R15A1
+L Device:R R15
 U 1 1 6076C52D
 P 10250 4850
-F 0 "R15A1" V 10450 4750 50  0000 L CNN
+F 0 "R15" V 10450 4750 50  0000 L CNN
 F 1 "470" V 10350 4750 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V 10180 4850 50  0001 C CNN
 F 3 "~" H 10250 4850 50  0001 C CNN
@@ -768,10 +768,10 @@ F 3 "~" H 10250 4850 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R15B1
+L Device:R R16
 U 1 1 6076CBE5
 P 10250 5050
-F 0 "R15B1" V 10350 4950 50  0000 L CNN
+F 0 "R16" V 10350 4950 50  0000 L CNN
 F 1 "100" V 10450 5000 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V 10180 5050 50  0001 C CNN
 F 3 "~" H 10250 5050 50  0001 C CNN
@@ -787,32 +787,32 @@ Wire Wire Line
 Wire Wire Line
 	10550 5050 10400 5050
 $Comp
-L Mechanical:MountingHole_Pad DPDT2
+L Mechanical:MountingHole_Pad S8
 U 1 1 60875028
 P 9000 1700
-F 0 "DPDT2" V 8850 1750 50  0000 C CNN
-F 1 "RIGHT-D2" V 8750 1750 50  0000 C CNN
+F 0 "S8" V 8850 1750 50  0000 C CNN
+F 1 "DPDT B-RIGHT" V 8750 1850 50  0000 C CNN
 F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 9000 1700 50  0001 C CNN
 F 3 "~" H 9000 1700 50  0001 C CNN
 	1    9000 1700
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad DPDT-2
+L Mechanical:MountingHole_Pad S7
 U 1 1 60874818
 P 9000 1900
-F 0 "DPDT-2" V 9250 1950 50  0000 C CNN
-F 1 "LEFT-D2" V 9150 1950 50  0000 C CNN
+F 0 "S7" V 9250 1950 50  0000 C CNN
+F 1 "DPDT B-LEFT" V 9150 2050 50  0000 C CNN
 F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 9000 1900 50  0001 C CNN
 F 3 "~" H 9000 1900 50  0001 C CNN
 	1    9000 1900
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R16A1
+L Device:R R17
 U 1 1 607810CF
 P 8750 1700
-F 0 "R16A1" H 8820 1746 50  0000 L CNN
+F 0 "R17" H 8820 1746 50  0000 L CNN
 F 1 "10K" H 8820 1655 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V 8680 1700 50  0001 C CNN
 F 3 "~" H 8750 1700 50  0001 C CNN
@@ -820,10 +820,10 @@ F 3 "~" H 8750 1700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R16B1
+L Device:R R18
 U 1 1 6078170D
 P 8750 1900
-F 0 "R16B1" H 8820 1946 50  0000 L CNN
+F 0 "R18" H 8820 1946 50  0000 L CNN
 F 1 "100K" H 8820 1855 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V 8680 1900 50  0001 C CNN
 F 3 "~" H 8750 1900 50  0001 C CNN
@@ -853,11 +853,11 @@ Connection ~ 8500 1800
 Wire Wire Line
 	8500 1800 8500 1900
 $Comp
-L Mechanical:MountingHole_Pad COMMON-D2
+L Mechanical:MountingHole_Pad S6
 U 1 1 6087501E
 P 9350 1900
-F 0 "COMMON-D2" V 9587 1903 50  0000 C CNN
-F 1 "DPDT-2" V 9496 1903 50  0000 C CNN
+F 0 "S6" V 9600 1800 50  0000 C CNN
+F 1 "DPDT B-COMM" V 9500 1800 50  0000 C CNN
 F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 9350 1900 50  0001 C CNN
 F 3 "~" H 9350 1900 50  0001 C CNN
 	1    9350 1900
@@ -866,11 +866,11 @@ $EndComp
 Wire Wire Line
 	9700 2350 9700 1900
 $Comp
-L Mechanical:MountingHole_Pad RIGHT2
+L Mechanical:MountingHole_Pad S2
 U 1 1 607C3558
 P 8350 1050
-F 0 "RIGHT2" V 8304 1200 50  0000 L CNN
-F 1 "3PDT-2" V 8395 1200 50  0000 L CNN
+F 0 "S2" V 8304 1200 50  0000 L CNN
+F 1 "3PDT A-RIGHT" V 8395 1200 50  0000 L CNN
 F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 8350 1050 50  0001 C CNN
 F 3 "~" H 8350 1050 50  0001 C CNN
 	1    8350 1050
@@ -898,10 +898,10 @@ Wire Wire Line
 Wire Wire Line
 	11150 4300 10800 4300
 $Comp
-L Mechanical:MountingHole_Pad SLEEVE1
+L Mechanical:MountingHole_Pad GND
 U 1 1 60E7AE65
 P 2050 3600
-F 0 "SLEEVE1" V 1900 3650 50  0000 C CNN
+F 0 "GND" V 1900 3650 50  0000 C CNN
 F 1 "DC-JACK" V 1800 3650 50  0000 C CNN
 F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 2050 3600 50  0001 C CNN
 F 3 "~" H 2050 3600 50  0001 C CNN
@@ -909,10 +909,10 @@ F 3 "~" H 2050 3600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad TIP1
+L Mechanical:MountingHole_Pad 9V
 U 1 1 60E7B387
 P 2050 3400
-F 0 "TIP1" V 2300 3450 50  0000 C CNN
+F 0 "9V" V 2300 3450 50  0000 C CNN
 F 1 "DC-JACK" V 2200 3450 50  0000 C CNN
 F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 2050 3400 50  0001 C CNN
 F 3 "~" H 2050 3400 50  0001 C CNN
@@ -925,70 +925,37 @@ Wire Wire Line
 Wire Wire Line
 	6600 1500 6600 1750
 $Comp
-L Mechanical:MountingHole_Pad H1V1
+L Mechanical:MountingHole_Pad P6
 U 1 1 607983E8
 P 9300 3100
-F 0 "H1V1" V 9254 3250 50  0000 L CNN
-F 1 "VOL" V 9345 3250 50  0000 L CNN
+F 0 "P6" V 9254 3250 50  0000 L CNN
+F 1 "VOL POT 1" V 9345 3250 50  0000 L CNN
 F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 9300 3100 50  0001 C CNN
 F 3 "~" H 9300 3100 50  0001 C CNN
 	1    9300 3100
 	0    1    1    0   
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H3V1
-U 1 1 6079964B
-P 6950 3950
-F 0 "H3V1" H 7050 3999 50  0000 L CNN
-F 1 "VOL" H 7050 3908 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 6950 3950 50  0001 C CNN
-F 3 "~" H 6950 3950 50  0001 C CNN
-	1    6950 3950
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H3D1
-U 1 1 608979D4
-P 6400 1100
-F 0 "H3D1" V 6354 1250 50  0000 L CNN
-F 1 "DRIVE" V 6445 1250 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 6400 1100 50  0001 C CNN
-F 3 "~" H 6400 1100 50  0001 C CNN
-	1    6400 1100
-	0    1    1    0   
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H2D1
-U 1 1 60898615
-P 6600 1400
-F 0 "H2D1" H 6700 1449 50  0000 L CNN
-F 1 "DRIVE" H 6700 1358 50  0000 L CNN
-F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 6600 1400 50  0001 C CNN
-F 3 "~" H 6600 1400 50  0001 C CNN
-	1    6600 1400
-	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6250 1100 6300 1100
 Wire Wire Line
 	6250 1100 6250 1400
 $Comp
-L Mechanical:MountingHole_Pad RIGHT1
+L Mechanical:MountingHole_Pad S1
 U 1 1 6083199B
 P 3250 2850
-F 0 "RIGHT1" V 3100 2900 50  0000 C CNN
-F 1 "3PDT-1" V 3000 2900 50  0000 C CNN
+F 0 "S1" V 3100 2900 50  0000 C CNN
+F 1 "3PDT A-LEFT" V 3000 2900 50  0000 C CNN
 F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 3250 2850 50  0001 C CNN
 F 3 "~" H 3250 2850 50  0001 C CNN
 	1    3250 2850
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H2V1
+L Mechanical:MountingHole_Pad P7
 U 1 1 6079999F
 P 9100 3500
-F 0 "H2V1" V 9337 3503 50  0000 C CNN
-F 1 "VOL" V 9246 3503 50  0000 C CNN
+F 0 "P7" V 9250 3550 50  0000 C CNN
+F 1 "VOL POT 2" V 8950 3550 50  0000 C CNN
 F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 9100 3500 50  0001 C CNN
 F 3 "~" H 9100 3500 50  0001 C CNN
 	1    9100 3500
@@ -1005,11 +972,11 @@ Wire Wire Line
 Wire Wire Line
 	9500 3300 9700 3300
 $Comp
-L Mechanical:MountingHole_Pad H1T1
+L Mechanical:MountingHole_Pad P3
 U 1 1 60997522
 P 7750 3500
-F 0 "H1T1" H 7850 3549 50  0000 L CNN
-F 1 "TONE" H 7850 3458 50  0000 L CNN
+F 0 "P3" H 7850 3549 50  0000 L CNN
+F 1 "TONE POT 1" H 7700 3650 50  0000 L CNN
 F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 7750 3500 50  0001 C CNN
 F 3 "~" H 7750 3500 50  0001 C CNN
 	1    7750 3500
@@ -1020,33 +987,33 @@ Wire Wire Line
 Wire Wire Line
 	7400 3000 7400 3750
 $Comp
-L Mechanical:MountingHole_Pad H3T1
+L Mechanical:MountingHole_Pad P5
 U 1 1 609980CB
 P 7650 3750
-F 0 "H3T1" V 7604 3900 50  0000 L CNN
-F 1 "TONE" V 7695 3900 50  0000 L CNN
+F 0 "P5" V 7604 3900 50  0000 L CNN
+F 1 "TONE POT 3" V 7695 3900 50  0000 L CNN
 F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 7650 3750 50  0001 C CNN
 F 3 "~" H 7650 3750 50  0001 C CNN
 	1    7650 3750
 	0    1    1    0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad H2T1
+L Mechanical:MountingHole_Pad P4
 U 1 1 60997943
 P 7700 4100
-F 0 "H2T1" H 7800 4149 50  0000 L CNN
-F 1 "TONE" H 7800 4058 50  0000 L CNN
+F 0 "P4" H 7800 4149 50  0000 L CNN
+F 1 "TONE POT 2" H 7800 4058 50  0000 L CNN
 F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 7700 4100 50  0001 C CNN
 F 3 "~" H 7700 4100 50  0001 C CNN
 	1    7700 4100
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad RIGHT-D1
+L Mechanical:MountingHole_Pad S5
 U 1 1 60893327
 P 9950 5050
-F 0 "RIGHT-D1" V 9800 5100 50  0000 C CNN
-F 1 "DPDT-1" V 9700 5100 50  0000 C CNN
+F 0 "S5" V 9800 5100 50  0000 C CNN
+F 1 "DPDT A-RIGHT" V 9700 5100 50  0000 C CNN
 F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 9950 5050 50  0001 C CNN
 F 3 "~" H 9950 5050 50  0001 C CNN
 	1    9950 5050
@@ -1324,6 +1291,39 @@ F 1 "0.22uF/35V" H 6400 3150 50  0000 L CNN
 F 2 "Capacitor_THT:C_Rect_L11.0mm_W7.3mm_P10.00mm_MKT" H 6988 3050 50  0001 C CNN
 F 3 "~" H 6950 3200 50  0001 C CNN
 	1    6950 3200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad P2
+U 1 1 60898615
+P 6600 1400
+F 0 "P2" H 6700 1449 50  0000 L CNN
+F 1 "DRIVE POT 2" H 6700 1358 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 6600 1400 50  0001 C CNN
+F 3 "~" H 6600 1400 50  0001 C CNN
+	1    6600 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad P1
+U 1 1 608979D4
+P 6400 1100
+F 0 "P1" V 6354 1250 50  0000 L CNN
+F 1 "DRIVE POT 3" V 6445 1250 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 6400 1100 50  0001 C CNN
+F 3 "~" H 6400 1100 50  0001 C CNN
+	1    6400 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad P8
+U 1 1 6079964B
+P 6950 3950
+F 0 "P8" H 7050 3999 50  0000 L CNN
+F 1 "VOL POT 3" H 7050 3908 50  0000 L CNN
+F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 6950 3950 50  0001 C CNN
+F 3 "~" H 6950 3950 50  0001 C CNN
+	1    6950 3950
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
