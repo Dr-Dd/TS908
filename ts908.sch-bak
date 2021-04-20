@@ -809,10 +809,10 @@ F 3 "~" H 9000 1900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R17
+L Device:R R18
 U 1 1 607810CF
 P 8750 1700
-F 0 "R17" H 8820 1746 50  0000 L CNN
+F 0 "R18" H 8820 1746 50  0000 L CNN
 F 1 "10K" H 8820 1655 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V 8680 1700 50  0001 C CNN
 F 3 "~" H 8750 1700 50  0001 C CNN
@@ -820,10 +820,10 @@ F 3 "~" H 8750 1700 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Device:R R18
+L Device:R R19
 U 1 1 6078170D
 P 8750 1900
-F 0 "R18" H 8820 1946 50  0000 L CNN
+F 0 "R19" H 8820 1946 50  0000 L CNN
 F 1 "100K" H 8820 1855 50  0000 L CNN
 F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P5.08mm_Vertical" V 8680 1900 50  0001 C CNN
 F 3 "~" H 8750 1900 50  0001 C CNN
@@ -898,10 +898,10 @@ Wire Wire Line
 Wire Wire Line
 	11150 4300 10800 4300
 $Comp
-L Mechanical:MountingHole_Pad GND
+L Mechanical:MountingHole_Pad GND1
 U 1 1 60E7AE65
 P 2050 3600
-F 0 "GND" V 1900 3650 50  0000 C CNN
+F 0 "GND1" V 1900 3650 50  0000 C CNN
 F 1 "DC-JACK" V 1800 3650 50  0000 C CNN
 F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 2050 3600 50  0001 C CNN
 F 3 "~" H 2050 3600 50  0001 C CNN
@@ -909,10 +909,10 @@ F 3 "~" H 2050 3600 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Mechanical:MountingHole_Pad 9V
+L Mechanical:MountingHole_Pad 9V1
 U 1 1 60E7B387
 P 2050 3400
-F 0 "9V" V 2300 3450 50  0000 C CNN
+F 0 "9V1" V 2300 3450 50  0000 C CNN
 F 1 "DC-JACK" V 2200 3450 50  0000 C CNN
 F 2 "Connector_Wire:SolderWire-0.5sqmm_1x01_D0.9mm_OD2.1mm" H 2050 3400 50  0001 C CNN
 F 3 "~" H 2050 3400 50  0001 C CNN
